@@ -7,3 +7,4 @@ const btnBg = document.querySelector('.btn_bg');
 btnBg.addEventListener('click', function () {
     document.body.classList.toggle('changeBlue');
 });
+
