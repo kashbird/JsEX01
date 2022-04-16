@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@700&display=swap');
+
+
+body{
+    margin: 0 auto;
+    background-color: rgb(126, 126, 126);
+    height: 2000px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Sunflower', sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 60px;
+}
+
+.changeBlue{
+    background-color: lightblue;
+    
+}
+
+.changeRed{
+    background-color: red;
+}
+
+.changePurple{
+    background-color: purple;
+}
+
+.btns{
+    position: relative;
+    top:60px;
+    width: 800px;
+    padding: 100px;
+    min-width: 800px;
+}
+
+.bg_img{
+    margin: 0;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: url(image/pexels-pixabay-235986.jpg);
+    transition: 1s;
+    opacity: 0;
+}
+
+.bg_img--show{
+    opacity: 1;
+}
+
+/* .changeImg{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    transition: 1s;
+    background: url(image/pexels-pixabay-235986.jpg);
+    background-size: cover;
+} */
+
+button{
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 60px;
+    margin-right: 20px;
+    width: 120px;
+    height: 40px;
+    border: solid 2px white;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn_blue{
+    background-color: rgb(127, 189, 209);
+}
+
+.btn_blue:hover, .activeBlue{
+    background-color: rgb(115, 160, 175);
+}
+
+.btn_red{
+    background-color: red;
+}
+
+.btn_red:hover, .activeRed{
+    background-color: rgb(190, 33, 33);
+}
+
+.btn_purple{
+    background-color: purple;
+}
+
+.btn_purple:hover, .activepurple{
+    background-color: rgb(95, 13, 95);
+}
+
+.btn_img{
+    background-color: rgb(240, 165, 73);
+}
+
+.btn_img:hover, .activeImg{
+    background-color: rgb(206, 137, 52);
+}
+
+.btn_reset{
+    color: black;
+}
+
+.btn_reset:hover{
+    background-color: rgb(184, 184, 184);
+}
